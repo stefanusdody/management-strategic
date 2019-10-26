@@ -195,7 +195,6 @@ const Strategy = ({
   }
 
 
-
   return (
   <Container>
     <Card className={classes.space}>
