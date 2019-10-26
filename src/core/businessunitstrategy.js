@@ -71,7 +71,7 @@ const BusinessUnitStrategy = ({
         <Typography gutterBottom variant="h6" component="h2" className={classes.text}>
           The General Electric (GE) Matrix
         </Typography>
-        <img src={require(`../assets/gematrix.png`)} className="d-block w-100" alt="..."/>
+        <img src={require(`../assets/unitbusiness.png`)} className="d-block w-100" alt="..."/>
         <br/>
         <Typography variant="body2" color="textSecondary" component="p">
          The GE matrix is divided into nine cells, grouped into three zones:
@@ -300,7 +300,7 @@ const BusinessUnitStrategy = ({
     return(
       showImage && (
         <div >
-           <img src={require(`../assets/unitbusiness.jpg`)} className="d-block w-100" alt="..."/>
+           <img src={require(`../assets/unitbusiness.png`)} className="d-block w-100" alt="..."/>
         </div>
       )
     )

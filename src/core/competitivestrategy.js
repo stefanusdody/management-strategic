@@ -72,6 +72,7 @@ const CompetitiveStrategy = ({
         <Typography gutterBottom variant="subtitle1" component="h2" >
           The Competitive Profile Matrix (CPM)
         </Typography>
+        <img src={require(`../assets/competitiveprofilematrix .png`)} className="d-block w-100" alt="..."/>
         <Typography variant="body2" color="textSecondary" component="p">
           CPM analysis is used to identify strengths and weaknesses of competing companies in their efforts to see the company's strategic position.
         </Typography>

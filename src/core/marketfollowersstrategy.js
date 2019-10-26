@@ -113,7 +113,7 @@ const MarketFollowersStrategy = ({
     return(
       showImage && (
         <div >
-           <img src={require(`../assets/marketfollowers.jpg`)} className="d-block w-100" alt="..."/>
+           <img src={require(`../assets/marketfollowers.jpeg`)} className="d-block w-100" alt="..."/>
         </div>
       )
     )

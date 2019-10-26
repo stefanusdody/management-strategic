@@ -174,7 +174,7 @@ const MarketLeadersStrategy = ({
     return(
       showImage && (
         <div >
-           <img src={require(`../assets/marketleaders.jpg`)} className="d-block w-100" alt="..."/>
+           <img src={require(`../assets/marketleaders.jpeg`)} className="d-block w-100" alt="..."/>
         </div>
       )
     )

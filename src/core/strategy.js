@@ -188,7 +188,7 @@ const Strategy = ({
     return(
       showImage && (
         <div >
-           <img src={require(`../assets/strategy.jpg`)} className="d-block w-100" alt="..."/>
+           <img src={require(`../assets/componentstrategy.png`)} className="d-block w-100" alt="..."/>
         </div>
       )
     )

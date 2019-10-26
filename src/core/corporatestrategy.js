@@ -76,25 +76,30 @@ const CorporateStrategy = ({
         <Typography gutterBottom variant="h6" component="h2">
           Matrix The Internal-External (IE)
         </Typography>
-        <img src={require(`../assets/iematrix.png`)} className="d-block w-100" alt="..."/>
-        <Typography gutterBottom variant="h6" component="h2">
-          Grow and Build
+        <img src={require(`../assets/corporatestrategy.png`)} className="d-block w-100" alt="..."/>
+         <br/>
+         <Typography variant="body2" color="textSecondary" component="p">
+           The IE Matrix is divided into three main areas with different strategy implications
+         </Typography>
+         <br/>
+        <Typography gutterBottom variant="subtitle1" component="h2" >
+          Grow and Build (Cell I, II, or IV)
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
-          companies that are in a position to Grow and Build, can use intensive strategies such as market penetration strategies, product development strategies, market development strategies, or integrative strategies such as backward integration,
+          Companies that are in a position to Grow and Build, can use intensive strategies such as market penetration strategies, product development strategies, market development strategies, or integrative strategies such as backward integration,
           forward integration, and horizontal integration strategies.
         </Typography>
         <br/>
-        <Typography gutterBottom variant="h6" component="h2">
-          Hold and Maintain
+        <Typography gutterBottom variant="subtitle1" component="h2" >
+          Hold and Maintain (Cell III, V, or VII)
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
           companies that are in a position of Hold and Maintain strategies
           that can be used are market penetration strategies, product development strategies.
         </Typography>
         <br/>
-        <Typography gutterBottom variant="h6" component="h2">
-          Harvest or Divest
+        <Typography gutterBottom variant="subtitle1" component="h2" >
+          Harvest or Divest (Cell VI, VIII, or IX)
         </Typography>
         <Typography variant="body2" color="textSecondary" component="p">
          companies that are in a Harvest or Release strategy position
@@ -109,7 +114,7 @@ const CorporateStrategy = ({
     return(
       showImage && (
         <div >
-           <img src={require(`../assets/corporatestrategy.jpg`)} className="d-block w-100" alt="..."/>
+           <img src={require(`../assets/corporatestrategy.png`)} className="d-block w-100" alt="..."/>
         </div>
       )
     )

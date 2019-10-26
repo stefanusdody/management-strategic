@@ -13,6 +13,8 @@ import CompetitiveStrategy from './core/competitivestrategy';
 import MarketLeadersStrategy from './core/marketleadersstrategy';
 import MarketChallengersStrategy from './core/marketchallengersstrategy';
 import MarketFollowersStrategy from './core/marketfollowersstrategy';
+import MarketingMixStrategy from './core/marketingmixstrategy'
+
 
 const Routes = () => {
   return(
@@ -31,6 +33,7 @@ const Routes = () => {
           <Route path="/marketleadersstrategy" exact component={MarketLeadersStrategy}/>
           <Route path="/marketchallengersstrategy" exact component={MarketChallengersStrategy}/>
           <Route path="/marketfollowersstrategy" exact component={MarketFollowersStrategy}/>
+          <Route path="/marketingmixstrategy" exact component={MarketingMixStrategy}/>
          </Switch>
     </BrowserRouter>
 

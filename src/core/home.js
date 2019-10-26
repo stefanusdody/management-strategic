@@ -15,6 +15,7 @@ import CompetitiveStrategy from './competitivestrategy';
 import MarketLeadersStrategy from './marketleadersstrategy';
 import MarketChallengersStrategy from './marketchallengersstrategy';
 import MarketFollowersStrategy from './marketfollowersstrategy';
+import MarketingMixStrategy from './marketingmixstrategy'
 
 const useStyles = makeStyles(theme => ({
   space:{
@@ -103,6 +104,14 @@ const Home = () => {
          </Grid>
          <Grid item xs={12} sm={6} md={6}>
              <MarketFollowersStrategy
+              showParagraf = {false}
+              showImage = {true}
+              showBack = {false}
+              showRead = {true}
+             />
+         </Grid>
+         <Grid item xs={12} sm={6} md={6}>
+             <MarketingMixStrategy
               showParagraf = {false}
               showImage = {true}
               showBack = {false}
